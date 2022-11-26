@@ -1,0 +1,124 @@
+.input-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  align-items: center;
+  width: 100%;
+  flex-shrink: 20;
+}
+
+.input-class {
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+.input-with-btn {
+  display: flex;
+  text-align: center;
+  font-size: 1.2rem;
+
+  background: var(--input-colour);
+  border: none;
+  color: var(--text-color);
+  border-radius: 30px;
+}
+.input-class .input-with-btn > input {
+  padding: 20px;
+  border-radius: 30px;
+  border: none;
+  width: 14vw;
+  min-width: 170px;
+  background-color: transparent;
+}
+.input-class .input-with-btn > button {
+  font-size: 2rem;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  width: 25%;
+  border: none;
+  background-color: var(--bg-colour);
+  color: white;
+}
+.input-add-text {
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+}
+.input-add-text > input {
+  border-radius: 30px;
+  text-align: center;
+  padding: 16px;
+  font-size: 1.2rem;
+  border: none;
+  width: 50vw;
+  min-width: 300px;
+  background: var(--input-colour);
+  color: var(--text-color);
+}
+
+.image-upload > input {
+  display: none;
+}
+input {
+  outline: none;
+}
+
+.image-upload {
+  background: var(--bg-colour);
+  width: 70px;
+  height: 57px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+.image-upload label > svg {
+  width: 40px;
+}
+
+.btn-add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+.btn-add > button {
+  padding: 15px 35px 15px 35px;
+  background: var(--bg-colour);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.btn-cleare {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+.btn-cleare > button {
+  /* background-color: #6601eb; */
+  background: var(--bg-colour);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  width: 100px;
+  height: 55px;
+  text-align: center;
+}
+.button-box {
+  display: flex;
+  margin-right: 20px;
+}
+.button-pad {
+  margin-left: 10px;
+}
+@media screen and (max-width: 550px) {
+  .list > li {
+    flex-direction: column;
+  }
+}
